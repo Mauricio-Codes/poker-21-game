@@ -1,0 +1,28 @@
+/* Estilos del html y body */
+html, body {
+    margin: 0px;
+    background-color: #2F4F30;
+    color: white;
+}
+
+/* Estiliza header con el titulo */
+.titulo {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* Estiliza cartas mostradas en pantalla */
+.cartas {
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+}
+
+/* Ajuste de espacio estático del jugador y la maquina */
+#jugador-cartas, #computador-cartas {
+    height: 240px;
+}

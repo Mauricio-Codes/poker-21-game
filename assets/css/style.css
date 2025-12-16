@@ -1,28 +1,43 @@
 /* Estilos del html y body */
 html, body {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
     background-color: #2F4F30;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Estiliza header con el titulo */
 .titulo {
     text-align: center;
-    background-color: black;
-    color: white;
-    padding: 20px;
-    font-size: 20px;
+    background-color: #000;
+    padding: 15px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.game {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
 }
 
 /* Estiliza cartas mostradas en pantalla */
 .cartas {
-    position: relative;
-    width: 150px;
-    left: 100px;
-    margin-left: -75px;
+    width: 120px;
+    margin-left: -60px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+}
+
+.cartas:first-child {
+    margin-left: 0;
 }
 
 /* Ajuste de espacio estático del jugador y la maquina */
-#jugador-cartas, #computador-cartas {
-    height: 240px;
+#jugador-cartas,
+#computador-cartas {
+    display: flex;
+    align-items: center;
+    min-height: 220px;
 }

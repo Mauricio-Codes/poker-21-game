@@ -16,12 +16,6 @@ html, body {
     letter-spacing: 1px;
 }
 
-.game {
-    max-width: 1100px;
-    margin: 30px auto;
-    padding: 0 20px;
-}
-
 /* Estiliza cartas mostradas en pantalla */
 .cartas {
     width: 120px;

@@ -53,6 +53,7 @@ Poker-21-Game/
 * │ │ └── style.css
 * │ ├── js/
 * │ │ ├── juego.js
+* | | ├── juego-min.js 
 * │ │ └── underscore-min.js
 * │ ├── cartas/ # imagenes de las cartas
 * │ └── poker-icon.png

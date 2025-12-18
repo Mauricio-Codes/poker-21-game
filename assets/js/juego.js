@@ -112,11 +112,6 @@ const modulo = ( () => {
 
             puntosComputadora = acomuladorPuntos(carta, puntosJugadores.length - 1);
             crearCarta( carta, puntosJugadores.length - 1)
-            // <img class="carta" src="assets/cartas/2C.png">
-            // const imgCarta = document.createElement('img');
-            // imgCarta.src = `assets/cartas/${ carta }.png`; //3H, JD
-            // imgCarta.classList.add('cartas');
-            // divCartasComputadora.append( imgCarta );
 
             if( puntosMinimos > 21 ) {
                 break;

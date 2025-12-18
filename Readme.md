@@ -74,3 +74,12 @@ git clone https://github.com/Mauricio-Codes/poker-21-game.git
 * Reforzar el uso de condicionales, ciclos y funciones
 
 * Aplicar manipulación básica del DOM
+
+# Estado del proyecto
+
+* Juego funcional
+* Interfaz completa
+* Lógica implementada 
+* Optimización y refactorización en progreso
+
+* Demo online disponible: https://poker21game.netlify.app/
